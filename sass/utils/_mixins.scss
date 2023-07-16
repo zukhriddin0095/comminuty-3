@@ -10,3 +10,19 @@
   margin-right: auto;
 }
 
+@mixin btn {
+  padding: 20px 32px;
+  color: #fff;
+  font-family: "Poppins";
+  border: 1px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  background: #444cfc;
+  opacity: 0.8700000047683716;
+  transition: 0.6s;
+  &:hover {
+    background: transparent;
+    border: 1px solid #fff;
+  }
+}

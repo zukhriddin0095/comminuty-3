@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header-blok {
+  padding-top: 200px;
+
+  .blok-iconk {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s;
+
+    .iconk-img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .iconk_img {
+      width: 48px;
+      height: 52px;
+    }
+  }
+
+  .blok-name {
+    max-width: 729px;
+
+    h1 {
+      color: #000;
+      font-family: "Poppins";
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 54px;
+    }
+
+    p {
+      font-family: "Poppins";
+      font-size: 16.5px;
+      font-style: normal;
+      padding-top: 16px;
+    }
+  }
+
+  .blok-cantag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+
+    h3 {
+      font-family: "Poppins";
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    p {
+      font-family: "Poppins";
+      font-size: 16px;
+      font-style: normal;
+      padding-top: 5px;
+    }
+  }
+}
+
+.person-img {
+  margin-top: 100px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.person-text {
+  padding-top: 100px;
+  max-width: 844px;
+  margin: 0 auto;
+
+  h1 {
+    font-family: "Poppins";
+    font-size: 35px;
+    font-style: normal;
+    padding-top: 5px;
+  }
+
+  p {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 10px;
+  }
+}

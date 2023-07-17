@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.header-blok {
+  padding-top: 200px;
+}
+.header-blok .blok-iconk {
+  display: flex;
+  justify-content: space-between;
+  transition: 0.6s;
+}
+.header-blok .blok-iconk .iconk-img {
+  width: 24px;
+  height: 24px;
+}
+.header-blok .blok-iconk .iconk_img {
+  width: 48px;
+  height: 52px;
+}
+.header-blok .blok-name {
+  max-width: 729px;
+}
+.header-blok .blok-name h1 {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+}
+.header-blok .blok-name p {
+  font-family: "Poppins";
+  font-size: 16.5px;
+  font-style: normal;
+  padding-top: 16px;
+}
+.header-blok .blok-cantag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 20px;
+}
+.header-blok .blok-cantag img {
+  width: 32px;
+  height: 32px;
+}
+.header-blok .blok-cantag h3 {
+  font-family: "Poppins";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+.header-blok .blok-cantag p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  padding-top: 5px;
+}
+
+.person-img {
+  margin-top: 100px;
+}
+.person-img img {
+  width: 100%;
+  height: auto;
+}
+
+.person-text {
+  padding-top: 100px;
+  max-width: 844px;
+  margin: 0 auto;
+}
+.person-text h1 {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-style: normal;
+  padding-top: 5px;
+}
+.person-text p {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  padding-top: 10px;
+}

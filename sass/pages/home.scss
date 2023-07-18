@@ -1,3 +1,151 @@
 @use "../global";
-@use "../components/upcoming-sermons";
-@use "../components/blog-post-card";
+@use "../utils/mixins" as mxn;
+
+.home {
+  padding-top: 80px;
+  background: #232536;
+  .home__wrapper {
+    .home__aside {
+      padding-top: 200px;
+      h1 {
+        max-width: 624px;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 68px; /* 121.429% */
+      }
+      p {
+        margin-top: 24px;
+        margin-bottom: 52px;
+        max-width: 528px;
+        color: #fff;
+        font-family: "Poppins";
+        font-size: 16px;
+        line-height: 24px;
+      }
+      a {
+        @include mxn.btn;
+      }
+    }
+    .home__bside {
+      padding-top: 96px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.home__sponsers {
+  padding-top: 33px;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+  }
+  img {
+    width: 100%;
+  }
+  .home__clients {
+    width: 100%;
+    a {
+      color: #fff;
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      opacity: 0.6000000238418579;
+      transition: 0.6s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.about-us {
+  .about__wrapper {
+    padding-top: 120px;
+    h5 {
+      color: #000;
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      opacity: 0.8700000047683716;
+    }
+    .about__aside {
+      h3 {
+        margin-right: 92px;
+        max-width: 640px;
+        color: #232536;
+        font-family: "Poppins";
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 58px;
+      }
+    }
+    .about__bside {
+      h4 {
+        color: #232536;
+        font-family: "Poppins";
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 54px;
+      }
+      p {
+        max-width: 547px;
+        color: #5d5f6d;
+        font-family: "Poppins";
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+.about__box {
+  margin-top: 48px;
+  margin-bottom: 98px;
+  display: flex;
+  justify-content: space-between;
+  .about__box__aside {
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+    .about__box__card {
+      h5 {
+        color: #232536;
+        font-family: "Poppins";
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px; /* 150% */
+      }
+      p {
+        color: #000;
+        font-family: "Poppins";
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  .about__box__bside {
+    display: flex;
+    align-items: center;
+    a {
+      color: #444cfc;
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      opacity: 0.8700000047683716;
+      &::after {
+        content: "→";
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: 800;
+        color: #000;
+      }
+    }
+  }
+}

@@ -95,7 +95,11 @@ ul {
 .header.sticky {
   padding: 5px;
   height: 70px;
-  background: #000000c1;
+  background: #232536;
+  -webkit-box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
+  z-index: 10;
   width: 100%;
 }
 .navbar__toggle {
@@ -135,7 +139,7 @@ ul {
       gap: 30px;
       padding-top: 130px;
       li {
-       padding-bottom: 15px;
+        padding-bottom: 15px;
         border-bottom: 3px solid #a6a6a6;
         width: 75%;
         a {
@@ -143,8 +147,8 @@ ul {
           font-family: "Poppins";
           font-size: 25px;
           font-weight: 500;
-          line-height: 24px; 
-          transition: .8s;
+          line-height: 24px;
+          transition: 0.8s;
           &:hover {
             padding-left: 25px;
           }

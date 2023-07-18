@@ -128,7 +128,9 @@ ul .nav-btn::after {
 .header.sticky {
   padding: 5px;
   height: 70px;
-  background: rgba(0, 0, 0, 0.7568627451);
+  background: #232536;
+  box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
+  z-index: 10;
   width: 100%;
 }
 

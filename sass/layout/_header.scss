@@ -23,7 +23,7 @@
             &::after {
               position: absolute;
               width: 0;
-              height: 3px;
+              height: 2px;
               bottom: 0;
               left: 50%;
               content: "";
@@ -35,7 +35,7 @@
             &::before {
               position: absolute;
               width: 0;
-              height: 3px;
+              height: 2px;
               bottom: 0;
               right: 50%;
               content: "";
@@ -93,9 +93,10 @@ ul {
 }
 
 .header.sticky {
-  padding: 5px;
-  height: 70px;
-  background: #232536;
+  padding: 30px;
+  height: 90px;
+  background: #23253675;
+  backdrop-filter: blur(2px);
   -webkit-box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 22px 5px -19px rgba(0, 0, 0, 0.75);

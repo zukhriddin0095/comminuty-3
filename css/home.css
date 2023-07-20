@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -791,4 +790,190 @@ ul .nav-btn::after {
   font-weight: 900;
   padding-left: 10px;
   color: #000;
+}
+
+.services-process {
+  padding-bottom: 96px;
+  background-color: #Fff;
+}
+.services-process .services-process-container .services-process__wrapper {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop {
+  display: flex;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right {
+  display: flex;
+  flex-direction: column;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__subtext {
+  margin-bottom: 16px;
+  color: #000;
+  /* Caption */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
+  margin-bottom: 16px;
+  width: 650px;
+  color: #232536;
+  /* H2 Heading */
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  /* 120.833% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__text {
+  width: 642px;
+  color: #232536;
+  /* Paragraph */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__left {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom {
+  margin-top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top {
+  display: flex;
+  align-items: center;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card {
+  width: 377px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 32px;
+  height: 164px;
+  border: 1px solid rgba(35, 37, 54, 0.17);
+  position: relative;
+  display: flex;
+  transition: 1s;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card:hover {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card:hover .services-process_wbottom__card__float__text {
+  transform: scale(1.1);
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card .services-process_wbottom__card__float__text {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  color: var(--black, #232536);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  opacity: 0.3;
+  /* 133.333% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card .services-process_wbottom__card__floatimg {
+  left: 0;
+  bottom: -8px;
+  position: absolute;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card .services-process_wbottom__card__texts {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card .services-process_wbottom__card__texts .services-process_wbottom__card__title {
+  color: #000;
+  /* H6 Heading */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 175% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card .services-process_wbottom__card__texts .services-process_wbottom__card__text {
+  width: 259px;
+  color: #232536;
+  /* Paragraph */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom {
+  margin-top: 48px;
+  display: flex;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card {
+  width: 377px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 32px;
+  height: 164px;
+  border: 1px solid rgba(35, 37, 54, 0.17);
+  position: relative;
+  display: flex;
+  transition: 1s;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card:hover {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card:hover .services-process_wbottom__card__float__text {
+  transform: scale(1.1);
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card .services-process_wbottom__card__float__text {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  color: var(--black, #232536);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  opacity: 0.3;
+  /* 133.333% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card .services-process_wbottom__card__floatimg {
+  left: 0;
+  bottom: -8px;
+  position: absolute;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card .services-process_wbottom__card__texts {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card .services-process_wbottom__card__texts .services-process_wbottom__card__title {
+  color: #000;
+  /* H6 Heading */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 175% */
+}
+.services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card .services-process_wbottom__card__texts .services-process_wbottom__card__text {
+  width: 259px;
+  color: #232536;
+  /* Paragraph */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
 }

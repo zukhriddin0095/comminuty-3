@@ -804,6 +804,11 @@ ul .nav-btn::after {
 .services-process .services-process-container .services-process__wrapper .services-process_wtop {
   display: flex;
 }
+@media (max-width: 800px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wtop {
+    flex-direction: column;
+  }
+}
 .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right {
   display: flex;
   flex-direction: column;
@@ -823,17 +828,36 @@ ul .nav-btn::after {
 }
 .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
   margin-bottom: 16px;
-  width: 650px;
+  width: 733px;
   color: #232536;
   /* H2 Heading */
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
   line-height: 58px;
-  /* 120.833% */
+}
+@media (max-width: 900px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
+    width: 600px;
+  }
+}
+@media (max-width: 700px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
+    width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
+    width: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__title {
+    width: 300px;
+  }
 }
 .services-process .services-process-container .services-process__wrapper .services-process_wtop .services-process_wtop__right .services-process_wtop__right__text {
-  width: 642px;
+  max-width: 642px;
   color: #232536;
   /* Paragraph */
   font-size: 16px;
@@ -856,6 +880,12 @@ ul .nav-btn::after {
 .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top {
   display: flex;
   align-items: center;
+}
+@media (max-width: 1000px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__top .services-process_wbottom__card {
   width: 377px;
@@ -918,6 +948,12 @@ ul .nav-btn::after {
 .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom {
   margin-top: 48px;
   display: flex;
+}
+@media (max-width: 1000px) {
+  .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 .services-process .services-process-container .services-process__wrapper .services-process_wbottom .services-process_wbottom__bottom .services-process_wbottom__card {
   width: 377px;

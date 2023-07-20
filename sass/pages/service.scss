@@ -1,5 +1,6 @@
 @use "../global";
 @use "../base/typography";
+@use "../layout/footer";
 
 
 a {
@@ -16,7 +17,9 @@ a {
 
 .service-hero {
   padding-top: 176px !important;
+  padding-bottom: 96px;
   background-color: #FFE6D2 !important;
+
 
   .service__hero__container {
     display: flex;
@@ -470,13 +473,79 @@ a {
 
 //information
 
-.services-inofrmation{
+.services-inofrmation {
   padding-bottom: 96px;
-  .services-information-container{
+
+  .services-information-container {
     display: flex;
     gap: 130px;
-    .services-information__left{
+
+    .services-information__left {
       margin-top: 141px;
+    }
+  }
+}
+
+//newsletter
+
+.service-newsletter {
+  position: relative;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #666DFF;
+
+  .service-newsletter__container {
+    display: flex;
+
+    .service-newsletter__left {
+      display: flex;
+      flex-direction: column;
+
+      .newsletter__floatimgs{
+        position: absolute;
+        right: 10px;
+
+        .floatnewslet{
+          position: absolute;
+          height: 24px;
+          right: 20px;
+        }
+        .floatnewslett{
+          position: absolute;
+          height: 40px;
+        }
+      }
+
+      .cornerimg{
+        position: absolute;
+        top:0;
+      }
+
+      .service-nsubtext {
+        color: #FFF;
+
+        /* Caption */
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        /* 142.857% */
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+
+      .service-ntitle {
+        margin-top: 13px;
+        width: 488px;
+        color: #FFF;
+
+        /* H3 Heading */
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 54px;
+        /* 150% */
+      }
     }
   }
 }

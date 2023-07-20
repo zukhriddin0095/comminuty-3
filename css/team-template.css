@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.team-template {
+  padding-top: 180px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.team-template .team-name img {
+  width: 320px;
+  height: 320px;
+}
+.team-template .team-name h1 {
+  color: var(--text, #232536);
+  font-family: "Poppins";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  padding-top: 40px;
+}
+.team-template .team-name h2 {
+  color: var(--text, #232536);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 10px;
+  opacity: 0.6999999881;
+}
+.team-template .team-name p {
+  max-width: 505px;
+  color: #232536;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 20px;
+  opacity: 0.8700000048;
+}
+.team-template .team-name svg {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.item-bg {
+  background: #ECF8F9;
+  margin-top: 100px;
+}
+.item-bg .bg-name {
+  padding-top: 100px;
+}
+.item-bg .bg-name h1 {
+  color: #232536;
+  font-family: "Poppins";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  padding-top: 19px;
+}
+.item-bg .bg-blok {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 40px;
+  padding-bottom: 96px;
+}
+.item-bg .bg-blok .bg-blok-item {
+  max-width: 600px;
+  height: 248px;
+  background: #FFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.item-bg .bg-blok .bg-blok-item img {
+  max-width: 296px;
+  max-height: 248px;
+}
+.item-bg .bg-blok .bg-blok-item .item-nike {
+  padding: 32px;
+}
+.item-bg .bg-blok .bg-blok-item .item-nike h3 {
+  color: #232536;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  opacity: 0.6000000238;
+}
+.item-bg .bg-blok .bg-blok-item .item-nike h1 {
+  color: #232536;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  padding-top: 8px;
+}
+.item-bg .bg-blok .bg-blok-item .item-nike a {
+  color: #444CFC;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 24px;
+}
